@@ -14,3 +14,13 @@ Here is a (at edit time) [recent report](http://www.ceasa.rs.gov.br/sis/files/27
 
 
 This small project intends to automatically scrape the prices from at least the previous year, to eventually build some analysis of the data set.
+
+The python environment is managed through [pipenv](https://docs.pipenv.org/#install-pipenv-today).
+
+To install this project:
+```bash
+$ git clone https://github.com/thiagoeh/ceasa-rs_scrapper.git
+$ cd ceasa-rs_scrapper
+$ pipenv install
+```
+
